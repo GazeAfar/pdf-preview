@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 项目介绍
 
-## Getting Started
+这个项目展示了如何使用不同的HTML标签来加载和显示PDF文件。我们提供了四种不同的方法，每种方法都在一个独立的组件中实现。
 
-First, run the development server:
+## 组件列表
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **PDFIframeViewer**: 使用`iframe`标签加载PDF文件。
+2. **PDFViewer**: 使用`a`标签加载PDF文件。
+3. **PDFObjectViewer**: 使用`object`标签加载PDF文件。
+4. **PDFEmbedViewer**: 使用`embed`标签加载PDF文件。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+每个组件都包含在`components`文件夹中，并且使用了`next/head`来设置页面的标题和字符集。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 样式
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+项目的全局样式定义在`styles/globals.css`文件中，使用了Tailwind CSS来简化样式的管理。
 
-## Learn More
+## 如何运行
 
-To learn more about Next.js, take a look at the following resources:
+1. 克隆这个仓库。
+2. 运行`npm install`来安装所有依赖。
+3. 运行`npm run dev`来启动开发服务器。
+4. 打开浏览器并访问`http://localhost:3000`来查看效果。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+希望这个项目能帮助你更好地理解如何在网页中加载和显示PDF文件。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+测试地址：
+使用a标签加载PDF：https://pdf-preview-seven.vercel.app/
+使用iframe加载PDF：https://pdf-preview-seven.vercel.app/iframe
+使用object加载PDF：https://pdf-preview-seven.vercel.app/object
+使用embed加载PDF：https://pdf-preview-seven.vercel.app/embed
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
