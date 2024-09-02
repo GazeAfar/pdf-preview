@@ -4,12 +4,12 @@ export default function PDFViewer() {
     return (
         <div className="container mx-auto p-4">
             <Head>
-                <title>使用a标签加载PDF</title>
+                <title>Load PDF using a tag</title>
                 <meta charSet="UTF-8" />
             </Head>
-            <h1 className="text-2xl font-bold mb-4">使用a标签加载PDF</h1>
+            <h1 className="text-2xl font-bold mb-4">Load PDF using <code>&lt;a&gt;</code> tag</h1>
             <a href="/pdf-viewer.pdf" target="_blank" className="text-blue-500 underline">
-                点击查看PDF
+                Click to view PDF
             </a>
         </div>
     );

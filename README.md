@@ -1,32 +1,32 @@
-# 项目介绍
+# Project Introduction
 
-这个项目展示了如何使用不同的HTML标签来加载和显示PDF文件。我们提供了四种不同的方法，每种方法都在一个独立的组件中实现。
+This project demonstrates how to load and display PDF files using different HTML tags. We provide four different methods, each implemented in a separate component.
 
-## 组件列表
+## Component List
 
-1. **PDFIframeViewer**: 使用`iframe`标签加载PDF文件。
-2. **PDFViewer**: 使用`a`标签加载PDF文件。
-3. **PDFObjectViewer**: 使用`object`标签加载PDF文件。
-4. **PDFEmbedViewer**: 使用`embed`标签加载PDF文件。
+1. **PDFIframeViewer**: Loads PDF files using the `iframe` tag.
+2. **PDFViewer**: Loads PDF files using the `a` tag.
+3. **PDFObjectViewer**: Loads PDF files using the `object` tag.
+4. **PDFEmbedViewer**: Loads PDF files using the `embed` tag.
 
-每个组件都包含在`components`文件夹中，并且使用了`next/head`来设置页面的标题和字符集。
+Each component is contained in the `components` folder and uses `next/head` to set the page title and charset.
 
-## 样式
+## Styles
 
-项目的全局样式定义在`styles/globals.css`文件中，使用了Tailwind CSS来简化样式的管理。
+The global styles for the project are defined in the `styles/globals.css` file, using Tailwind CSS to simplify style management.
 
-## 如何运行
+## How to Run
 
-1. 克隆这个仓库。
-2. 运行`npm install`来安装所有依赖。
-3. 运行`npm run dev`来启动开发服务器。
-4. 打开浏览器并访问`http://localhost:3000`来查看效果。
+1. Clone this repository.
+2. Run `npm install` to install all dependencies.
+3. Run `npm run dev` to start the development server.
+4. Open your browser and visit `http://localhost:3000` to see the result.
 
-希望这个项目能帮助你更好地理解如何在网页中加载和显示PDF文件。
+## Test Links
 
-测试地址：
-使用a标签加载PDF：https://pdf-preview-seven.vercel.app/
-使用iframe加载PDF：https://pdf-preview-seven.vercel.app/iframe
-使用object加载PDF：https://pdf-preview-seven.vercel.app/object
-使用embed加载PDF：https://pdf-preview-seven.vercel.app/embed
+Using `<a>` tag to load PDF: <a href="https://pdf-preview-seven.vercel.app/" target="_blank">https://pdf-preview-seven.vercel.app/</a>  
+Using `<iframe>` tag to load PDF: <a href="https://pdf-preview-seven.vercel.app/iframe" target="_blank">https://pdf-preview-seven.vercel.app/iframe</a>  
+Using `<object>` tag to load PDF: <a href="https://pdf-preview-seven.vercel.app/object" target="_blank">https://pdf-preview-seven.vercel.app/object</a>  
+Using `<embed>` tag to load PDF: <a href="https://pdf-preview-seven.vercel.app/embed" target="_blank">https://pdf-preview-seven.vercel.app/embed</a>  
 
+We hope this project helps you better understand how to load and display PDF files on a webpage.
